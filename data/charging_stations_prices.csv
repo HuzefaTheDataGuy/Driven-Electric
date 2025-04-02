@@ -1,0 +1,7 @@
+Charging Station Type,Charging Speed (kW),Price Range (€/kWh),Notes
+Standard Charging,11-22,0.29 - 0.45,Commonly found in parking garages and train stations; ideal for longer parking durations.
+Fast Charging,50,0.40 - 0.60,Strategically located along highways and major roads; convenient for drivers on the go.
+Ultra-Fast Charging,150-350,0.69 - 0.89,High-power charging (HPC) stations; can charge vehicles to 80% in 15 to 30 minutes.
+Tesla Superchargers,Up to 250,0.35 - 0.40 (Tesla users with membership); 0.50 - 0.65 (non-Tesla users),Tesla is gradually opening its Supercharger network to other EV brands.
+Tesla Destination Chargers,Up to 22,Often free,"Available for guests at hotels, restaurants, and shopping centers."
+Ionity Charging Stations,Up to 350,0.79 (ad-hoc charging); lower rates available through partner contracts,"Over 400 stations in Europe, mostly along highways."
