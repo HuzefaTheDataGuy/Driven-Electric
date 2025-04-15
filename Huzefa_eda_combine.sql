@@ -51,3 +51,24 @@ FROM DS7_E_CAR_SALES
 WHERE brand != 'TOTAL MARKET'
 ORDER BY bev_sales desc;
 
+------------------------------------------------------
+-- DS 2 --
+
+SELECT * FROM DS1_EV_CARS1;
+
+------------------------------------------------------
+-- DS 3 -- cleaning
+
+SELECT * FROM DS5_GERMANYGASSTATIONS;
+
+--find the 'nicht' in postal code
+SELECT * FROM DS5_GERMANYGASSTATIONS
+WHERE post_code = 'nicht';
+
+-- delete nicht values (with case sensitive function)
+DELETE FROM DS5_GERMANYGASSTATIONS 
+WHERE LOWER(post_code) = 'nicht';
+
+--check if the 'nicht' is still in postal code (with case sensitive function)
+SELECT * FROM DS5_GERMANYGASSTATIONS
+WHERE LOWER(post_code) = 'nicht';
