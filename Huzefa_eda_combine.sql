@@ -59,16 +59,16 @@ SELECT * FROM DS1_EV_CARS1;
 ------------------------------------------------------
 -- DS 3 -- cleaning
 
-SELECT * FROM DS5_GERMANYGASSTATIONS;
+SELECT * FROM ds5_ds3;
 
 --find the 'nicht' in postal code
-SELECT * FROM DS5_GERMANYGASSTATIONS
-WHERE post_code = 'nicht';
+SELECT * FROM ds5_ds3
+WHERE gas_or_ev = 'EV Charging';
 
 -- delete nicht values (with case sensitive function)
-DELETE FROM DS5_GERMANYGASSTATIONS 
+DELETE FROM ds5_ds3 
 WHERE LOWER(post_code) = 'nicht';
 
 --check if the 'nicht' is still in postal code (with case sensitive function)
 SELECT * FROM DS5_GERMANYGASSTATIONS
-WHERE LOWER(post_code) = 'nicht';
+WHERE LOWER(post_code) = '';
