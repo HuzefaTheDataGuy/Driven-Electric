@@ -34,6 +34,13 @@ It combines data analysis, visualization, and market research to deliver actiona
 - Bundes Netz Agentur
 - Tanker König
 - Mobilithek
+- Annual Reports of Automobile Brands
+- Federal Ministry for Economic Affairs
+- Bundesministerium für Wirtschaft und Klimaschutz
+- Statista
+- Kaggle
+- Cardino
+- Other News Articles 
 
 ---
 
