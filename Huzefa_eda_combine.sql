@@ -72,3 +72,5 @@ WHERE LOWER(post_code) = 'nicht';
 --check if the 'nicht' is still in postal code (with case sensitive function)
 SELECT * FROM DS5_GERMANYGASSTATIONS
 WHERE LOWER(post_code) = '';
+
+SELECT * FROM DS9_SALES_AND_MARKET_SHARE_FINAL;
