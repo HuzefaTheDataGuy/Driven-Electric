@@ -1,4 +1,4 @@
-# 🚗 Germany's EV Market Evolution: Analysis and Insights (2025)
+# 🚗 Germany's EV Market Evolution: Analysis and Insights
 
 ## 📄 Project Overview
 This project analyzes the evolution of the Electric Vehicle (EV) market in Germany, highlighting key growth drivers, competitive dynamics, infrastructure challenges, and market forecasts for 2025.  
