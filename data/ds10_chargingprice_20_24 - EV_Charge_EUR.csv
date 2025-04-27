@@ -1,0 +1,16 @@
+year,charging_station_type,charging_speed_kw,eur_price_kw,calc_avg_eur_price_kw
+2020,Standard Charging,Up to 22,0.29 - 0.45,0.37
+2020,Fast Charging,Up to 50,0.40 - 0.60,0.5
+2020,Ultra-Fast Charging,Up to 350,0.69 - 0.89,0.79
+2021,Standard Charging,Up to 22,0.35 - 0.50,0.43
+2021,Fast Charging,Up to 50,0.45 - 0.65,0.58
+2021,Ultra-Fast Charging,Up to 350,0.75 - 0.89,0.83
+2022,Standard Charging,11-22,0.50 - 0.65,0.55
+2022,Fast Charging,50,0.65 - 0.75,0.68
+2022,Ultra-Fast Charging,150-350,0.70 - 0.85,0.83
+2023,Standard Charging,Up to 22,0.45 - 0.60,0.42
+2023,Fast Charging,Up to 50,0.60 - 0.70,0.6
+2023,Ultra-Fast Charging,Up to 350,0.65 - 0.80,0.72
+2024,Standard Charging,Up to 22,0.60 - 0.64,0.61
+2024,Fast Charging,Up to 50,0.70 - 0.85,0.72
+2024,Ultra-Fast Charging,Up to 350,0.79 - 0.89,0.82
