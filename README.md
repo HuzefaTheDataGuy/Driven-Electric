@@ -46,9 +46,10 @@ It combines data analysis, visualization, and market research to deliver actiona
 
 ## 🔥 Key Insights
 - **EV growth** in Germany is fueled by innovation, government incentives, and consumer environmental awareness.
-- **Chinese brands** are intensifying competition with aggressive pricing and quality improvements.
+- **Chinese brands** are intensifying competition with aggressive pricing and quality improvements, but **tariffs/import duties in Europe** limit their price advantage in Germany.
 - **Tesla's market share** in Germany is weaker compared to its global dominance.
 - **Charging infrastructure** needs urgent expansion, especially in **northeast Germany**.
+- **Car sales declined in 2024** due to economic slowdown, reduced EV subsidies, and high inflation impacting consumer purchasing power.
 - **Market forecast for 2025** predicts strong EV production and BEV sales growth despite overall modest auto market expansion.
 
 ---
@@ -68,7 +69,10 @@ It combines data analysis, visualization, and market research to deliver actiona
 ---
 
 ## 🤝 Contact
-**Author:** [Your Name]  
-**LinkedIn:** [Your LinkedIn Link]  
-**GitHub:** [Your GitHub Profile Link]
+
+| Name                | LinkedIn                                   | GitHub                                  |
+|---------------------|--------------------------------------------|-----------------------------------------|
+| Elena Vasilevskaya  | [LinkedIn Profile](https://www.linkedin.com/in/elena-vasilevskaya-004420122/) | [GitHub Profile](https://github.com/ElenaVasilevskaya-1)      |
+| M.Huzefa Ahmed      | [LinkedIn Profile](https://www.linkedin.com/in/muhammadhuzefaahmed/)  | [GitHub Profile](https://github.com/HuzefaTheDataGuy)   |
+
 
