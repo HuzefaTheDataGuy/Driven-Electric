@@ -79,8 +79,6 @@ It combines data analysis, visualization, and market research to deliver actiona
 
 ## 📌 [Disclaimer](./DISCLAIMER.md)
 
----
-
 ## 🤝 Contact
 
 | Name                | LinkedIn                                   | GitHub                                  |
