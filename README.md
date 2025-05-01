@@ -73,12 +73,7 @@ It combines data analysis, visualization, and market research to deliver actiona
    streamlit run app.py
    ```
 
-4. Open your browser at:
-   ```
-   http://localhost:8501
-   ```
-
-> ✅ Make sure you have Python 3.7+ and Streamlit installed.
+> ✅ Make sure you have Python 3.9+ and Streamlit installed.
 
 
 ---
