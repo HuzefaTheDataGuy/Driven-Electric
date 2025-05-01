@@ -69,7 +69,8 @@ It combines data analysis, visualization, and market research to deliver actiona
 
 3. Run the Streamlit app:
    ```bash
-   streamlit run EV_app_final.py
+   cd "EV_app final"
+   streamlit run app.py
    ```
 
 4. Open your browser at:
