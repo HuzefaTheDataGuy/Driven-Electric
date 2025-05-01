@@ -62,23 +62,17 @@ It combines data analysis, visualization, and market research to deliver actiona
    cd Final_Project-Spiced-
    ```
 
-2. (Optional) Create and activate a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. Install required packages:
+2. Install required packages:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Run the Streamlit app:
+3. Run the Streamlit app:
    ```bash
    streamlit run EV_app_final.py
    ```
 
-5. Open your browser at:
+4. Open your browser at:
    ```
    http://localhost:8501
    ```
