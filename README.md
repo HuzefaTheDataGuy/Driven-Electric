@@ -58,7 +58,7 @@ It combines data analysis, visualization, and market research to deliver actiona
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/ElenaVasilevskaya-1/Final_Project-Spiced-.git](https://github.com/ElenaVasilevskaya-1/Driven-Electric.git)
+   git clone https://github.com/ElenaVasilevskaya-1/Driven-Electric.git
    ```
 
 2. Install required packages:
