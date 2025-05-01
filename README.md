@@ -55,16 +55,36 @@ It combines data analysis, visualization, and market research to deliver actiona
 ---
 
 ## 🚀 How to Run
+
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/germany-ev-market-evolution.git
+   git clone https://github.com/ElenaVasilevskaya-1/Final_Project-Spiced-.git
+   cd Final_Project-Spiced-
    ```
-2. Install requirements:
+
+2. (Optional) Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. Install required packages:
    ```bash
    pip install -r requirements.txt
    ```
-3. Open and run notebooks in the `/notebooks` folder.
-4. View dashboards linked in `/presentation/dashboard_links.txt`.
+
+4. Run the Streamlit app:
+   ```bash
+   streamlit run EV_app_final.py
+   ```
+
+5. Open your browser at:
+   ```
+   http://localhost:8501
+   ```
+
+> ✅ Make sure you have Python 3.7+ and Streamlit installed.
+
 
 ---
 
