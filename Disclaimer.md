@@ -1,6 +1,6 @@
 # ⚠️ Disclaimer
 
-This repository has been developed for educational and research purposes. The data, visualizations, and analysis presented are based on information sourced from publicly available platforms such as government databases, industry reports, and company publications. All sources have been credited where applicable.
+This repository has been developed for educational and research purposes. The data, visualizations, and analysis presented are based on information sourced from publicly available platforms such as government databases, industry reports, and company publications. 
 
 The authors are not affiliated with any of the companies, brands, or institutions mentioned. The insights and interpretations reflect our own analysis and do not represent any official statements or endorsements.
 
