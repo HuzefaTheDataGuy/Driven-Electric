@@ -75,7 +75,7 @@ It combines data analysis, visualization, and market research to deliver actiona
 > ✅ Make sure you have Python 3.9+ and Streamlit installed.
 
 ### 📌 [Disclaimer](./DISCLAIMER.md)
-
+___
 ## 🤝 Contact
 
 | Name                | LinkedIn                                   | GitHub                                  |
