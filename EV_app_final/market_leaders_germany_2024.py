@@ -106,20 +106,24 @@ def show_market_leaders_germany_2024():
         *Tesla Model Y: Best-seller for 3 consecutive years*
         """)
 
-    # Load and show Tesla image
-    tesla_y = Image.open('./images/tesla_y.png')
-    buffered = BytesIO()
-    tesla_y.save(buffered, format="PNG")
-    img_b64 = base64.b64encode(buffered.getvalue()).decode()
+    # Load and show Tesla image 
+    st.image('./images/tesla_y.png', width = 600)
+  
 
-    st.markdown(
-        f"""
-        <div style="display: flex; justify-content: center; align-items: center; margin: 30px 0;">
-            <img src="data:image/png;base64,{img_b64}" style="width:100%; max-width:400px;">
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+
+    # tesla_y = Image.open('./images/tesla_y.png')
+    # buffered = BytesIO()
+    # tesla_y.save(buffered, format="PNG")
+    # img_b64 = base64.b64encode(buffered.getvalue()).decode()
+
+    # st.markdown(
+    #     f"""
+    #     <div style="display: flex; justify-content: center; align-items: center; margin: 30px 0;">
+    #         <img src="data:image/png;base64,{img_b64}" style="width:100%; max-width:400px;">
+    #     </div>
+    #     """,
+    #     unsafe_allow_html=True
+    # )
 
     # Third Visualization
     viz2_url = (
