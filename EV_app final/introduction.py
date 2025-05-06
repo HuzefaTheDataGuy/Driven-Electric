@@ -107,7 +107,7 @@ def show_introduction():
     # Title centered
     st.markdown(
         """
-        <h2 style="text-align: center; font-size: 20px;">Prepared By Team DOUBLE TROUBLE (Elena Vasilevskaya, Huzefa Ahmed)</h2>
+        <h2 style="text-align: center; font-size: 20px;">Prepared By Elena Vasilevskaya, Huzefa Ahmed</h2>
         """,
         unsafe_allow_html=True
     )

@@ -4,10 +4,18 @@ from streamlit.components.v1 import html
 def show_charging_trends():
     st.header("EV Charging Trends in Germany")
 
-    # --- Chart 1 & 2: EV Charging Points & Growth Overview ---
+    # --- Section 1: Charging Point Distribution & Growth Overview ---
     st.subheader("Charging Point Distribution & Infrastructure Growth")
 
-    # Embed the first Tableau dashboard
+    st.markdown("""
+    ### Chart 1: Distribution of AC vs. DC Charging Points  
+    - This map compares **fast (DC)** and **normal (AC)** EV charging points across Germany.  
+    - **Urban areas** show a **higher density of AC chargers**, aligning with city dwellers’ charging behavior.  
+    - **Northeast Germany** stands out with a **notable shortage of DC fast chargers**.  
+    - **Overall**, **AC charging points are significantly more common** than DC fast chargers throughout the country.
+    """)
+
+    # Embed Chart 1
     dashboard_1 = """
     <div style="width:100%; height:1600px;">
         <iframe 
@@ -22,12 +30,6 @@ def show_charging_trends():
     html(dashboard_1, height=1200)
 
     st.markdown("""
-    ### Chart 1: Distribution of AC vs. DC Charging Points  
-    - This map compares **fast (DC)** and **normal (AC)** EV charging points across Germany.  
-    - **Urban areas** show a **higher density of AC chargers**, aligning with city dwellers’ charging behavior.  
-    - **Northeast Germany** stands out with a **notable shortage of DC fast chargers**.  
-    - **Overall**, **AC charging points are significantly more common** than DC fast chargers throughout the country.
-
     ### Chart 2: Growth of Charging Infrastructure (2020–2023)  
     - From **2020 to 2023**, there was a **substantial increase** in the number of charging stations—almost doubling in size.  
     - This expansion aligns with Germany’s goal of creating a **robust and accessible EV charging network** by **2030**.
@@ -35,22 +37,8 @@ def show_charging_trends():
 
     st.markdown("---")
 
-    # --- Chart 3: EV Charging Cost Trends ---
+    # --- Section 2: Charging Cost Trends ---
     st.subheader("EV Charging Cost Trends (2022–2025)")
-
-    # Embed the second Tableau dashboard
-    dashboard_2 = """
-    <div style="width:100%; height:800px;">
-        <iframe 
-            src="https://public.tableau.com/views/EVChargingpricesinGermany2024/Chargingstationprices20-24?:embed=y&:display_count=yes&:showVizHome=no" 
-            width="100%" 
-            height="100%" 
-            frameborder="0" 
-            style="border:none;">
-        </iframe>
-    </div>
-    """
-    html(dashboard_2, height=800)
 
     st.markdown("""
     - EV charging is categorized into **Standard**, **Fast**, and **Ultra-Fast** tiers.  
@@ -66,6 +54,30 @@ def show_charging_trends():
     - Subscription models will continue to help <b>users manage and predict their charging expenses</b>.
     """, unsafe_allow_html=True)
 
+    # Embed Chart 2
+    dashboard_2 = """
+    <div style="width:100%; height:800px;">
+        <iframe 
+            src="https://public.tableau.com/views/EVChargingpricesinGermany2024/Chargingstationprices20-24?:embed=y&:display_count=yes&:showVizHome=no" 
+            width="100%" 
+            height="100%" 
+            frameborder="0" 
+            style="border:none;">
+        </iframe>
+    </div>
+    """
+    html(dashboard_2, height=800)
+
+    st.markdown("---")
+
+    
+    # --- Final Notes ---
+    st.markdown("""
+    ### Conclusion  
+    Germany is making **steady progress** in building out its EV charging network.  
+    However, **regional disparities** and **fluctuating pricing trends** pose ongoing challenges.  
+    Continued **investment, innovation**, and **policy support** are key to a reliable and accessible charging future.
+    """)
 
 # Example usage
 # show_charging_trends()
