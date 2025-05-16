@@ -2,6 +2,7 @@ import streamlit as st
 from streamlit.components.v1 import html
 from PIL import Image
 import base64
+import os
 from io import BytesIO
 
 def show_market_observation():
@@ -48,7 +49,8 @@ def show_market_observation():
     <br> Tesla’s quarterly sales fell by around 62 percent in Germany, 55 percent in Sweden and Denmark, almost 50 percent in the Netherlands, and 41 percent in France. The United Kingdom continues to be Tesla's biggest market in Europe and was the only country in the continent to see a sales increase in the first quarter of 2025 (+3.5 percent). Nevertheless, Tesla's share of the UK market fell by more than 4 percentage points to 10.7 percent last month, partly due to increased competition from other manufacturers in a rapidly growing market (the country recorded record electric vehicle sales in the first quarter).
     """, unsafe_allow_html=True)
 
-    tesla_drop = Image.open('./images/tesla_drop.png')
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    tesla_drop = Image.open(os.path.join(BASE_DIR, 'images', 'tesla_drop.png'))
 
         # Convert image to base64
     buffered = BytesIO()

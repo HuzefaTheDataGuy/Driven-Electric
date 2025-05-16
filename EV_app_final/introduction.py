@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
 import base64
+import os
 from io import BytesIO
 
 def show_introduction():
@@ -81,8 +82,10 @@ def show_introduction():
         </div> """, unsafe_allow_html=True
     )
 
-        #Load the image
-    logos = Image.open('./images/logos.png')
+    # Load logos image
+    # Get the directory where the current script lives
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    logos = Image.open(os.path.join(BASE_DIR, 'images', 'logos.png'))
 
     # Convert image to base64
     buffered = BytesIO()

@@ -2,6 +2,7 @@ import streamlit as st
 from streamlit.components.v1 import html as st_html
 from PIL import Image
 import base64
+import os
 from io import BytesIO
 
 def show_market_leaders_germany_2024():
@@ -107,7 +108,8 @@ def show_market_leaders_germany_2024():
         """)
 
     # Load and show Tesla image 
-    st.image('./images/tesla_y.png', width = 600)
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    st.image(os.path.join(BASE_DIR, 'images', 'tesla_y.png'), width = 600)
   
 
 

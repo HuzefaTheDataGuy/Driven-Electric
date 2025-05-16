@@ -1,4 +1,5 @@
 import streamlit as st
+
 st.set_page_config(layout="wide")
 from introduction import show_introduction
 from market_leaders_germany_2024 import show_market_leaders_germany_2024
@@ -8,10 +9,9 @@ from ev_charging_trends import show_charging_trends
 from charging_infrastructure_overview import show_charging_infrastructure_overview
 from conclusions import show_conclusions
 
-
-
 # Main application entry point
 def main():
+
     # Sidebar navigation
     st.sidebar.title("Navigation")
     pages = {
